@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d83f2be9-d438-4e13-b276-3b3e85d81e08" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/mapActions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/map/Map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/map/PointList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/mapConstants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/map/MapComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/map/MapContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/mapReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/map/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/map/PointList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/map/PointList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/mapConstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/mapConstants.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,28 +24,86 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="mapActions.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/actions/mapActions.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="mapConstants.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/constants/mapConstants.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="PointList.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/map/PointList.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="Map.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/map/Map.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.4508427">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="mapConstants.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/constants/mapConstants.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PointList.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/map/PointList.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="268">
+                  <caret line="55" column="46" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MapContainer.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/map/MapContainer.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="116">
+                  <caret line="60" column="64" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="64" />
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
+                    <element signature="n#!!block;n#constructor#0;n#MapContainer#0" />
+                    <element signature="e#623#783#0" />
+                    <element signature="e#822#1108#0" />
+                    <element signature="e#1503#1535#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MapComponent.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/map/MapComponent.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="404">
+                  <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="mapReducer.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/reducers/mapReducer.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="17">
+                  <caret line="1" selection-start-line="1" selection-end-line="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="MapComponent.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/map/MapComponent.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-4">
+                  <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+                  <folding>
+                    <element signature="e#0#25#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -61,9 +119,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/constants/mapActions.js" />
-        <option value="$PROJECT_DIR$/src/constants/mapConstants.js" />
         <option value="$PROJECT_DIR$/src/components/map/pointList.js" />
+        <option value="$PROJECT_DIR$/src/components/header/Header.js" />
         <option value="$PROJECT_DIR$/src/components/map/Map.js" />
+        <option value="$PROJECT_DIR$/src/components/map/MapCom .js" />
+        <option value="$PROJECT_DIR$/src/components/map/MapContainer .js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/reducers/mapReducer.js" />
+        <option value="$PROJECT_DIR$/src/constants/mapConstants.js" />
+        <option value="$PROJECT_DIR$/src/components/map/classes.js" />
+        <option value="$PROJECT_DIR$/src/components/map/MapComponent.js" />
+        <option value="$PROJECT_DIR$/src/components/map/MapContainer.js" />
+        <option value="$PROJECT_DIR$/src/components/map/PointList.js" />
       </list>
     </option>
   </component>
@@ -78,19 +145,20 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="703" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,6 +188,13 @@
               <item name="map-test-task" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="map-test-task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="map-test-task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="map" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -128,10 +203,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="constants" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="map-test-task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="map-test-task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,12 +259,13 @@
       <workItem from="1539881835557" duration="1686000" />
       <workItem from="1539951045437" duration="70000" />
       <workItem from="1539955819280" duration="1089000" />
-      <workItem from="1540125659840" duration="1077000" />
+      <workItem from="1540125659840" duration="24271000" />
+      <workItem from="1540221012447" duration="8271000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3922000" />
+    <option name="totallyTimeSpent" value="35387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1015" extended-state="6" />
@@ -192,8 +275,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32920355" />
       <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32920355" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3295325" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -204,7 +287,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295325" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,18 +296,148 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/actions/mapActions.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/constants/mapConstants.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/map/PointList.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/map/Map.js">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/mapReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/map/MapContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="61" column="7" lean-forward="true" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#MapContainer#0" />
+            <element signature="e#623#783#0" />
+            <element signature="e#822#1108#0" />
+            <element signature="e#1503#1535#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/map/MapComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="58" column="24" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/constants/mapConstants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/map/classes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/mapReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/header/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/map/MapComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/map/MapContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="60" column="64" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#MapContainer#0" />
+            <element signature="e#623#783#0" />
+            <element signature="e#822#1108#0" />
+            <element signature="e#1503#1535#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/map/PointList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="55" column="46" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
